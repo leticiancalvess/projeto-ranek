@@ -1,7 +1,7 @@
 <template>
   <section class="produtos-container">
     <div v-if="produtos && produtos.length" class="produtos">
-      <div class="produto" v-for="produto in produtos" :key="produto.id">
+      <div class="produto" v-for="(produto, index) in produtos" :key="index">
         <router-link to="/">
           <img
             v-if="produto.fotos"
@@ -13,6 +13,10 @@
           <p>{{ produto.descricao }}</p>
         </router-link>
       </div>
+      <ProdutosPaginar
+        :produtosTotal="produtosTotal"
+        :produtosPorPagina="produtosPorPagina"
+      />
     </div>
     <div v-else-if="produtos && produtos.length === 0">
       <p class="sem-resultados">Sem resultados.</p>
@@ -21,13 +25,19 @@
 </template>
 
 <script>
+import ProdutosPaginar from "./ProdutosPaginar";
 import { api } from "../services.js";
 import { serialize } from "../helpers.js";
 export default {
+  name: "ProdutosLista",
+  components: {
+    ProdutosPaginar
+  },
   data() {
     return {
       produtos: null,
-      produtosPorPagina: 9
+      produtosPorPagina: 3,
+      produtosTotal: 0
     };
   },
   computed: {
@@ -39,6 +49,7 @@ export default {
   methods: {
     getProdutos() {
       api.get(this.url).then(response => {
+        this.produtosTotal = Number(response.headers["x-total-count"]); //pra ver quantos itens há na API
         this.produtos = response.data;
       });
     }
