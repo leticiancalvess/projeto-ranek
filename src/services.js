@@ -7,9 +7,12 @@ const axiosInstance = axios.create({
 export const api = {
   get(endpoint) {
     return axiosInstance.get(endpoint);
+  },
+  post(endpoint, body) {
+    return axiosInstance.post(endpoint, body); //sendo o body um objeto que será transformado em json e postado na api pelo axios
   }
 };
 
 export function getCep(cep) {
-  return axios.get(`https://viacep.com.br/ws/${cep}/json`);
+  return axios.get(`https://viacep.com.br/ws/${cep}/json/`);
 }

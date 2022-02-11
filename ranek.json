@@ -10,6 +10,18 @@
       "numero": "25",
       "estado": "RJ",
       "cidade": "Rio de Janeiro"
+    },
+    {
+      "id": "leticiancalves@hotmail.com",
+      "nome": "LETICIA ALVES",
+      "email": "leticiancalves@hotmail.com",
+      "senha": "123456",
+      "cep": "38440-234",
+      "rua": "Rua Natal Mujalli",
+      "numero": "1140",
+      "bairro": "Centro",
+      "cidade": "Araguari",
+      "estado": "MG"
     }
   ],
   "produto": [
