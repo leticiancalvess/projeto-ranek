@@ -2,14 +2,15 @@
   "usuario": [
     {
       "id": "andre@origamid.com",
-      "email": "andre@origamid.com",
       "nome": "André Rafael",
+      "email": "andre@origamid.com",
       "senha": "123",
-      "rua": "Rua Ali Perto",
       "cep": "12345678",
-      "numero": "25",
-      "estado": "RJ",
-      "cidade": "Rio de Janeiro"
+      "rua": "Rua Ali Perto",
+      "numero": "155",
+      "bairro": "",
+      "cidade": "Rio de Janeiro",
+      "estado": "RJ"
     },
     {
       "id": "leticiancalves@hotmail.com",
