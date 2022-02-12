@@ -31,7 +31,7 @@
 
 <script>
 import ProdutosPaginar from "./ProdutosPaginar";
-import { api } from "../services.js";
+import { api } from "../views/usuario/services.js";
 import { serialize } from "../helpers.js";
 export default {
   name: "ProdutosLista",

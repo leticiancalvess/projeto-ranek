@@ -19,7 +19,7 @@
 </template>
 
 <script>
-import { api } from "../services.js";
+import { api } from "./usuario/services.js";
 
 export default {
   name: "Produtos",

@@ -26,15 +26,6 @@
   ],
   "produto": [
     {
-      "id": "notebook",
-      "nome": "Notebook",
-      "usuario_id": "andre@origamid.com",
-      "preco": "4999",
-      "vendido": "false",
-      "descricao": "Esse é um novo notebook.",
-      "fotos": null
-    },
-    {
       "id": "smartphone",
       "nome": "Smartphone",
       "usuario_id": "andre@origamid.com",
@@ -321,6 +312,133 @@
       "vendido": "false",
       "descricao": "Esse é um novo tablet.",
       "fotos": null
+    },
+    {
+      "nome": "Tablet",
+      "preco": "22562",
+      "descricao": "Esse é um tablet novo",
+      "fotos": null,
+      "id": "JeExn4u"
+    },
+    {
+      "nome": "Tablet",
+      "preco": "22562",
+      "descricao": "Esse é um tablet novo",
+      "fotos": null,
+      "id": "4xz-jpF"
+    },
+    {
+      "nome": "Tablet",
+      "preco": "22562",
+      "descricao": "Esse é um tablet novo",
+      "fotos": null,
+      "id": "YzQjJ44"
+    },
+    {
+      "nome": "tablet",
+      "preco": "1599",
+      "descricao": "tablet novo",
+      "fotos": null,
+      "id": "P6KXDxA"
+    },
+    {
+      "nome": "tablet",
+      "preco": "1599",
+      "descricao": "tablet novo",
+      "fotos": null,
+      "id": "AQ8OMdy"
+    },
+    {
+      "nome": "tablet",
+      "preco": "1599",
+      "descricao": "tablet novo",
+      "fotos": null,
+      "id": "zFDEBgp"
+    },
+    {
+      "nome": "Tablet",
+      "preco": "1999",
+      "descricao": "Novo tablet",
+      "fotos": null,
+      "id": "pqEDa2W"
+    },
+    {
+      "nome": "Tablet",
+      "preco": "1999",
+      "descricao": "Novo tablet",
+      "fotos": null,
+      "id": "2REyqS6"
+    },
+    {
+      "nome": "Tablet",
+      "preco": "1999",
+      "descricao": "Novo",
+      "fotos": null,
+      "id": "8SId4PV"
+    },
+    {
+      "nome": "Tablet",
+      "preco": "1399",
+      "descricao": "teste",
+      "fotos": null,
+      "usuario_id": "andre@origamid.com",
+      "id": "eZKCirC"
+    },
+    {
+      "nome": "Tablet",
+      "preco": "1399",
+      "descricao": "teste",
+      "fotos": null,
+      "usuario_id": "andre@origamid.com",
+      "id": "zVr27hk"
+    },
+    {
+      "nome": "Tablet",
+      "preco": "1399",
+      "descricao": "teste",
+      "fotos": null,
+      "usuario_id": "andre@origamid.com",
+      "id": "qLPD7tI"
+    },
+    {
+      "nome": "Tablet",
+      "preco": "1399",
+      "descricao": "teste",
+      "fotos": null,
+      "usuario_id": "andre@origamid.com",
+      "id": "EIHg2U0"
+    },
+    {
+      "nome": "Tablet",
+      "preco": "1399",
+      "descricao": "teste",
+      "fotos": null,
+      "usuario_id": "andre@origamid.com",
+      "id": "Mmy-Xf2"
+    },
+    {
+      "nome": "Tablet",
+      "preco": "1399",
+      "descricao": "teste",
+      "fotos": null,
+      "usuario_id": "andre@origamid.com",
+      "id": "BOzQ5Ig"
+    },
+    {
+      "nome": "Oscar",
+      "preco": "321321",
+      "descricao": "a",
+      "fotos": null,
+      "usuario_id": "leticiancalves@hotmail.com",
+      "id": "hwkbC-A"
+    },
+    {
+      "nome": "Tablet",
+      "preco": "1999",
+      "descricao": "Tablet novo!!!",
+      "fotos": null,
+      "usuario_id": "leticiancalves@hotmail.com",
+      "id": "u5VKuN8"
     }
   ]
 }

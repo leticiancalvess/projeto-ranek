@@ -1,6 +1,6 @@
 import Vue from "vue";
 import Vuex from "vuex";
-import { api } from "./services.js";
+import { api } from "./views/usuario/services.js";
 Vue.use(Vuex);
 
 export default new Vuex.Store({

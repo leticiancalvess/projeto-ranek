@@ -10,6 +10,9 @@ export const api = {
   },
   post(endpoint, body) {
     return axiosInstance.post(endpoint, body); //sendo o body um objeto que será transformado em json e postado na api pelo axios
+  },
+  delete(endpoint) {
+    return axiosInstance.delete(endpoint);
   }
 };
 
