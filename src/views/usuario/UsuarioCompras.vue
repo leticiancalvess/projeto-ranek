@@ -1,5 +1,5 @@
 <template>
-  <p>Lista Compras</p>
+  <section></section>
 </template>
 
 <script>
