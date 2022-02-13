@@ -1,4 +1,28 @@
 {
+  "transacao": [
+    {
+      "comprador_id": "andre@origamid.com",
+      "vendedor_id": "andre@origamid.com",
+      "produto": {
+        "id": "smartphone",
+        "nome": "Smartphone",
+        "usuario_id": "andre@origamid.com",
+        "preco": "1999",
+        "vendido": "false",
+        "descricao": "Esse é um novo smartphone.",
+        "fotos": null
+      },
+      "endereco": {
+        "cep": "12345678",
+        "rua": "Rua Ali Perto",
+        "numero": "155",
+        "bairro": "",
+        "cidade": "Rio de Janeiro",
+        "estado": "RJ"
+      },
+      "id": 1
+    }
+  ],
   "usuario": [
     {
       "id": "andre@origamid.com",
@@ -424,14 +448,6 @@
       "fotos": null,
       "usuario_id": "andre@origamid.com",
       "id": "BOzQ5Ig"
-    },
-    {
-      "nome": "Oscar",
-      "preco": "321321",
-      "descricao": "a",
-      "fotos": null,
-      "usuario_id": "leticiancalves@hotmail.com",
-      "id": "hwkbC-A"
     },
     {
       "nome": "Tablet",
