@@ -16,8 +16,10 @@
     />
   </form>
 </template>
+
 <script>
 import { api } from "./services.js";
+
 export default {
   name: "ProdutoAdicionar",
   data() {
@@ -38,7 +40,7 @@ export default {
     adicionarProduto() {
       this.formatarProduto();
       api.post("/produto", this.produto).then(() => {
-        this.$store.dispatch("getUsuarioProdutos"); //apostar postar um produto, pega as infos de todos os produtos que ja estao no usuariosprodutos.
+        this.$store.dispatch("getUsuarioProdutos"); //apos postar um produto, pega as infos de todos os produtos que ja estao no usuariosprodutos.
       });
     }
   }

@@ -19,10 +19,7 @@ export default {
   methods: {
     atualizarUsuario() {
       api
-        .put(
-          `/usuario/${this.$store.state.usuario.id}`,
-          this.$store.state.usuario
-        )
+        .put("/usuario", this.$store.state.usuario)
         .then(() => {
           this.$store.dispatch("getUsuario"); //puxa novamente o novo usuário
           this.$router.push({ name: "usuario" });
